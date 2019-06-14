@@ -128,7 +128,7 @@ export default class Home extends Component {
                 </div>
                 { loading ?
                     <div className={'text-center'}>
-                        <FontAwesomeIcon size='7x' className='fa-spin' icon="fan" />
+                        <FontAwesomeIcon size='7x' color='#3490dc' className='fa-spin' icon="fan" style={{color: '#3490dc'}} />
                     </div>
                     :
                     <ResultsSeaction results={houses} />

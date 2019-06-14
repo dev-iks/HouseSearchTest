@@ -72599,8 +72599,12 @@ function (_Component) {
         className: 'text-center'
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         size: "7x",
+        color: "#3490dc",
         className: "fa-spin",
-        icon: "fan"
+        icon: "fan",
+        style: {
+          color: '#3490dc'
+        }
       })) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ResultsSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
         results: houses
       }));
